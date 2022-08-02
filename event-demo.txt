@@ -1,0 +1,1 @@
+{"version":"0","id":"9e6106af-fcc7-a1e9-b9eb-cd024938877d","detail-type":"Route53 Domain Expire Notify","source":"Route53Domain.Expire.Notify","account":"565451253198","time":"2022-07-26T15:04:56Z","region":"us-east-1","resources":[],"detail":{"domains":"k8sbox.com有效期363天"}}
