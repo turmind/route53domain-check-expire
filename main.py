@@ -7,7 +7,7 @@ import datetime
 def lambda_handler(event, context):
     expire_notify_day = int(os.getenv("Expire_Notify_Day"))
     print("get domain expire greater than ", expire_notify_day, " days")
-    client = boto3.client('route53domains')
+    client = boto3.client('route53domains', region_name='us-east-1')
     
     response = client.list_domains(
         SortCondition={
